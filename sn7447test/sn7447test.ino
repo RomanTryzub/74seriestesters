@@ -19,10 +19,10 @@ const byte segmentTable[] = {
   0b0110000, // 3: e,f off
   0b0011001, // 4: a,d,e off
   0b0010010, // 5: b,e off
-  0b0000010, // 6: b off
+  0b0000011, // 6: a,b off
   0b1111000, // 7: d,e,f,g off
   0b0000000, // 8: all on
-  0b0010000  // 9: e off
+  0b0011000  // 9: d,e off
 };
 
 void setup() {
